@@ -405,7 +405,6 @@ body {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .left-block {
-
         width: 530px;
         height: 530px;
         border-radius: 20px;
@@ -416,7 +415,6 @@ body {
 
     .down-block {
         width: 530px;
-
         overflow: hidden;
     }
 
@@ -436,7 +434,6 @@ body {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .left-block {
-
         width: 530px;
         height: 530px;
         border-radius: 20px;
@@ -512,7 +509,6 @@ body {
 
     .down-block {
         width: 1080px;
-
         overflow: hidden;
     }
 
