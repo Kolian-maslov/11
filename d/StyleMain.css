@@ -1,5 +1,5 @@
 body {
-    max-width: 1200px;
+    
     padding: 0px 0px 0px 0px;
     margin: 0px;
     background-color: #F5F5F7;
@@ -75,8 +75,7 @@ body {
 
 .left-block {
 
-    width: 530px;
-    height: 530px;
+    
     border-radius: 20px;
     overflow: hidden;
     margin-bottom: 20px;
@@ -91,8 +90,7 @@ body {
 }
 
 .right-block-up {
-    width: 530px;
-    height: 255px;
+    
 
     border-radius: 20px;
     overflow: hidden;
@@ -109,8 +107,7 @@ body {
 
 
 .left-down {
-    width: 255px;
-    height: 255px;
+   
     margin-right: 20px;
     background-color: #B1EF42;
     border-radius: 20px;
@@ -154,8 +151,7 @@ body {
 
 
 .right-down {
-    width: 255px;
-    height: 255px;
+    
     background-color: #1B76FF;
     border-radius: 20px;
 
@@ -176,7 +172,7 @@ body {
 .down-block {
     display: flex;
     margin-top: 20px;
-    width: 1080px;
+    
     border-radius: 20px;
 
     overflow: hidden;
@@ -478,7 +474,7 @@ body {
         width: 530px;
 
         overflow: hidden;
-    }
+    }с
 
     .th {
         position: absolute;
