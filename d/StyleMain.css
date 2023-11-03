@@ -397,6 +397,27 @@ body {
 
     }
 
+.text2 {
+    margin-top: 50px;
+    padding: 20px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text3 {
+    margin-top: 70px;
+    padding: 20px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
 
 
 
