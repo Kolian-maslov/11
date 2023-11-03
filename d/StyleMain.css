@@ -40,7 +40,7 @@ body {
 
 .nav-item:hover {
     color: #1B76FF;
-    
+
 }
 
 
@@ -317,7 +317,7 @@ body {
 
 
 /* Extra small devices (phones, 600px and down) */
-@media  screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
     .main-block {
         align-content: center;
@@ -347,7 +347,7 @@ body {
         overflow: hidden;
     }
 
-     .right-down {
+    .right-down {
         width: 190px;
         height: 190px;
         background-color: #1B76FF;
@@ -397,27 +397,27 @@ body {
 
     }
 
-.text2 {
-    margin-top: 50px;
-    padding: 20px;
-    color: #000;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
+    .text2 {
+        margin-top: 50px;
+        padding: 20px;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
 
-.text3 {
-    margin-top: 70px;
-    padding: 20px;
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
+    .text3 {
+        margin-top: 70px;
+        padding: 20px;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
 
 
 
@@ -426,8 +426,8 @@ body {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media  screen and (min-width: 600px) {
-.left-block {
+@media screen and (min-width: 600px) {
+    .left-block {
 
         width: 530px;
         height: 530px;
@@ -436,22 +436,23 @@ body {
         margin-bottom: 20px;
 
     }
-    
+
     .right-block-up {
-    width: 530px;
-    height: 255px;
+        width: 530px;
+        height: 255px;
 
-    border-radius: 20px;
-    overflow: hidden;
+        border-radius: 20px;
+        overflow: hidden;
 
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
-}
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+    }
 
     .down-block {
         width: 530px;
 
         overflow: hidden;
     }
+
     .right-down {
         width: 255px;
         height: 255px;
@@ -460,8 +461,8 @@ body {
 
         box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
     }
-    
-     .left-down {
+
+    .left-down {
         width: 255px;
         height: 255px;
         margin-right: 20px;
@@ -470,6 +471,7 @@ body {
 
         box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
     }
+
     .th {
         position: absolute;
         color: #FFF;
@@ -485,7 +487,7 @@ body {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media  screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .left-block {
 
         width: 530px;
@@ -495,22 +497,23 @@ body {
         margin-bottom: 20px;
 
     }
-    
+
     .right-block-up {
-    width: 530px;
-    height: 255px;
+        width: 530px;
+        height: 255px;
 
-    border-radius: 20px;
-    overflow: hidden;
+        border-radius: 20px;
+        overflow: hidden;
 
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
-}
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+    }
 
     .down-block {
         width: 530px;
 
         overflow: hidden;
     }
+
     .right-down {
         width: 255px;
         height: 255px;
@@ -519,8 +522,8 @@ body {
 
         box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
     }
-    
-     .left-down {
+
+    .left-down {
         width: 255px;
         height: 255px;
         margin-right: 20px;
@@ -529,6 +532,7 @@ body {
 
         box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
     }
+
     .th {
         position: absolute;
         color: #FFF;
@@ -544,26 +548,26 @@ body {
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media  screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
     .left-block {
 
-        width: 530px;
-        height: 530px;
+        width: 430px;
+        height: 430px;
         border-radius: 20px;
         overflow: hidden;
         margin-bottom: 20px;
 
     }
 
-    
+
     .right-block {
         display: block;
-        margin-left: 0px;
+        margin-left: 20px;
     }
 
     .right-block-up {
-        width: 530px;
-        height: 255px;
+        width: 430px;
+        height: 205px;
 
         border-radius: 20px;
         overflow: hidden;
@@ -572,47 +576,71 @@ body {
     }
 
     .down-block {
-        width: 530px;
+       
+        display: flex;
+        margin-top: 20px;
+        width: 880px;
+
+
+        border-radius: 20px;
 
         overflow: hidden;
-    }
+        position: relative;
 
-     .right-down {
-        width: 255px;
-        height: 255px;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+
+    
+    }
+    
+
+    .right-down {
+        width: 205px;
+        height: 205px;
         background-color: #1B76FF;
         border-radius: 20px;
 
         box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
     }
-    
-     .left-down {
-        width: 255px;
-        height: 255px;
+
+    .left-down {
+        width: 205px;
+        height: 205px;
         margin-right: 20px;
         background-color: #B1EF42;
         border-radius: 20px;
 
         box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
     }
+    
+    .text2 {
+        margin-top: 60px;
+        padding: 20px;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
 
-    .th {
-        position: absolute;
+    .text3 {
+        margin-top: 80px;
+        padding: 20px;
         color: #FFF;
         font-family: Montserrat;
         font-size: 24px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
-        padding: 10px;
-
     }
+
+    
 
 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media  screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
 
     .header {
         margin: 10px 20px;
@@ -644,7 +672,7 @@ body {
 
     .nav-item:hover {
         color: #1B76FF;
-        
+
     }
 
 
@@ -782,6 +810,8 @@ body {
         display: flex;
         margin-top: 20px;
         width: 1080px;
+
+
         border-radius: 20px;
 
         overflow: hidden;
@@ -795,6 +825,7 @@ body {
     .ph {
         display: flex;
         position: relative;
+
     }
 
     .th {
