@@ -317,11 +317,11 @@ body {
 
 
 /* Extra small devices (phones, 600px and down) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 390px) {
 
    .left-block {
-        width: 560px;
-        height: 560px;
+        width: 350px;
+        height: 350px;
         border-radius: 20px;
         overflow: hidden;
         margin-bottom: 20px;
@@ -329,28 +329,28 @@ body {
     }
 
     .right-block-up {
-        width: 560px;
-        height: 268px;
+        width: 350px;
+        height: 165px;
         border-radius: 20px;
         overflow: hidden;
     }
 
     .down-block {
-        width: 560px;
-        height: 270px;
+        width: 350px;
+        height: 165px;
         overflow: hidden;
     }
 
     .right-down {
-        width: 270px;
-        height: 270px;
+        width: 165px;
+        height: 165px;
         border-radius: 20px;
 
     }
 
     .left-down {
-        width: 270px;
-        height: 270px;
+        width: 165px;
+        height: 165px;
         margin-right: 20px;
         border-radius: 20px;
     }
@@ -393,6 +393,57 @@ body {
 
 
 
+}
+
+
+@media screen and (min-width:390px){
+    .left-block {
+        width: 350px;
+        height: 350px;
+        border-radius: 20px;
+        overflow: hidden;
+        margin-bottom: 20px;
+
+    }
+
+    .right-block-up {
+        width: 350px;
+        height: 165px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .down-block {
+        width: 350px;
+        height: 165px;
+        overflow: hidden;
+    }
+
+    .right-down {
+        width: 165px;
+        height: 165px;
+        border-radius: 20px;
+
+    }
+
+    .left-down {
+        width: 165px;
+        height: 165px;
+        margin-right: 20px;
+        border-radius: 20px;
+    }
+
+    .th {
+        position: absolute;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding: 10px;
+
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
