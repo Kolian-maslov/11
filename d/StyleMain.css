@@ -179,6 +179,8 @@ body {
 
 .down-block {
     display: flex;
+    position: relative;
+    overflow: hidden;
     margin-top: 20px;
 
     border-radius: 20px;
@@ -191,9 +193,15 @@ body {
 }
 
 
-.ph {
-    display: flex;
-    position: relative;
+
+
+.down-block img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    object-fit: cover;
 }
 
 .th {
@@ -469,7 +477,6 @@ body {
     .down-block {
         width: 560px;
         height: 270px;
-        overflow: hidden;
     }
 
     .right-down {
@@ -485,14 +492,14 @@ body {
         margin-right: 20px;
         border-radius: 20px;
     }
-    
-     .text {
-    font-size: 16px;
-}
-    
+
+    .text {
+        font-size: 16px;
+    }
+
     .textr {
-    font-size: 16px;
-}
+        font-size: 16px;
+    }
 
     .text2 {
         font-size: 24px;
@@ -527,7 +534,6 @@ body {
     .down-block {
         width: 560px;
         height: 270px;
-        overflow: hidden;
     }
 
     .right-down {
@@ -593,16 +599,8 @@ body {
     }
 
     .down-block {
-
-        display: flex;
-        margin-top: 20px;
         width: 932px;
         height: 218px;
-        border-radius: 20px;
-        overflow: hidden;
-        position: relative;
-
-
     }
 
 
@@ -808,25 +806,12 @@ body {
     }
 
     .down-block {
-        display: flex;
-        margin-top: 20px;
         width: 1080px;
         height: 255px;
-        border-radius: 20px;
-
-        overflow: hidden;
-        position: relative;
-
-        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
 
     }
 
 
-    .ph {
-        display: flex;
-        position: relative;
-
-    }
 
     .th {
         position: absolute;
