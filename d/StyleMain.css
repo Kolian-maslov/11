@@ -105,7 +105,8 @@ body {
 
 
 .left-down {
-
+    display: flex;
+    position: relative;
     margin-right: 20px;
     background-color: #B1EF42;
     border-radius: 20px;
@@ -115,7 +116,9 @@ body {
 
 
 .text {
-    padding: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
     color: #000;
     font-family: Montserrat;
     font-size: 16px;
@@ -126,8 +129,9 @@ body {
 
 
 .text2 {
-    margin-top: 110px;
-    padding: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
     color: #000;
     font-family: Montserrat;
     font-size: 24px;
@@ -136,9 +140,23 @@ body {
     line-height: normal;
 }
 
+.textr {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
 .text3 {
-    margin-top: 130px;
-    padding: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
     color: #FFF;
     font-family: Montserrat;
     font-size: 24px;
@@ -149,23 +167,15 @@ body {
 
 
 .right-down {
-
+    display: flex;
+    position: relative;
     background-color: #1B76FF;
     border-radius: 20px;
 
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
 }
 
-.textr {
-    padding: 20px;
-    color: #fff;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 
-}
 
 .down-block {
     display: flex;
@@ -316,87 +326,9 @@ body {
 
 
 
-/* Extra small devices (phones, 600px and down) */
+
 @media screen and (max-width: 390px) {
 
-   .left-block {
-        width: 350px;
-        height: 350px;
-        border-radius: 20px;
-        overflow: hidden;
-        margin-bottom: 20px;
-
-    }
-
-    .right-block-up {
-        width: 350px;
-        height: 165px;
-        border-radius: 20px;
-        overflow: hidden;
-    }
-
-    .down-block {
-        width: 350px;
-        height: 165px;
-        overflow: hidden;
-    }
-
-    .right-down {
-        width: 165px;
-        height: 165px;
-        border-radius: 20px;
-
-    }
-
-    .left-down {
-        width: 165px;
-        height: 165px;
-        margin-right: 20px;
-        border-radius: 20px;
-    }
-
-    .th {
-        position: absolute;
-        color: #FFF;
-        font-family: Montserrat;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        padding: 10px;
-
-    }
-
-    .text2 {
-        margin-top: 50px;
-        padding: 20px;
-        color: #000;
-        font-family: Montserrat;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    }
-
-    .text3 {
-        margin-top: 70px;
-        padding: 20px;
-        color: #FFF;
-        font-family: Montserrat;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    }
-
-
-
-
-
-}
-
-
-@media screen and (min-width:390px){
     .left-block {
         width: 350px;
         height: 350px;
@@ -433,20 +365,90 @@ body {
         border-radius: 20px;
     }
 
-    .th {
-        position: absolute;
+
+    .text2 {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .text3 {
         color: #FFF;
         font-family: Montserrat;
         font-size: 24px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
-        padding: 10px;
-
     }
+
+
+
+
+
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media screen and (min-width:390px) {
+    .left-block {
+        width: 350px;
+        height: 350px;
+        border-radius: 20px;
+        overflow: hidden;
+        margin-bottom: 20px;
+
+    }
+
+    .right-block-up {
+        width: 350px;
+        height: 165px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .down-block {
+        width: 350px;
+        height: 165px;
+        overflow: hidden;
+    }
+
+    .right-down {
+        width: 165px;
+        height: 165px;
+        border-radius: 20px;
+
+    }
+
+    .left-down {
+        width: 165px;
+        height: 165px;
+        margin-right: 20px;
+        border-radius: 20px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .textr {
+        font-size: 12px;
+    }
+
+    .text2 {
+        font-size: 16px;
+
+    }
+
+    .text3 {
+        font-size: 16px;
+    }
+
+
+}
+
+
 @media screen and (min-width: 600px) {
     .left-block {
         width: 560px;
@@ -483,22 +485,28 @@ body {
         margin-right: 20px;
         border-radius: 20px;
     }
+    
+     .text {
+    font-size: 16px;
+}
+    
+    .textr {
+    font-size: 16px;
+}
 
-    .th {
-        position: absolute;
-        color: #FFF;
-        font-family: Montserrat;
+    .text2 {
         font-size: 24px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        padding: 10px;
 
     }
 
+    .text3 {
+        font-size: 24px;
+    }
+
+
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+
 @media screen and (min-width: 768px) {
     .left-block {
         width: 560px;
@@ -536,6 +544,16 @@ body {
         border-radius: 20px;
     }
 
+
+    .text2 {
+        font-size: 24px;
+
+    }
+
+    .text3 {
+        font-size: px;
+    }
+
     .th {
         position: absolute;
         color: #FFF;
@@ -550,7 +568,7 @@ body {
 
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+
 @media screen and (min-width: 992px) {
     .left-block {
         width: 456px;
@@ -606,8 +624,6 @@ body {
     }
 
     .text2 {
-        margin-top: 60px;
-        padding: 20px;
         color: #000;
         font-family: Montserrat;
         font-size: 24px;
@@ -617,8 +633,6 @@ body {
     }
 
     .text3 {
-        margin-top: 80px;
-        padding: 20px;
         color: #FFF;
         font-family: Montserrat;
         font-size: 24px;
@@ -632,7 +646,7 @@ body {
 
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+
 @media screen and (min-width: 1200px) {
 
     .header {
@@ -746,7 +760,6 @@ body {
 
 
     .text {
-        padding: 20px;
         color: #000;
         font-family: Montserrat;
         font-size: 16px;
@@ -757,8 +770,6 @@ body {
 
 
     .text2 {
-        margin-top: 110px;
-        padding: 20px;
         color: #000;
         font-family: Montserrat;
         font-size: 24px;
@@ -768,8 +779,6 @@ body {
     }
 
     .text3 {
-        margin-top: 130px;
-        padding: 20px;
         color: #FFF;
         font-family: Montserrat;
         font-size: 24px;
@@ -789,7 +798,6 @@ body {
     }
 
     .textr {
-        padding: 20px;
         color: #fff;
         font-family: Montserrat;
         font-size: 16px;
