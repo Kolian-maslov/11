@@ -75,18 +75,21 @@ body {
 
 .left-block {
     display: flex;
-    position: relative;
-    text-align: center;
     border-radius: 20px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
 }
 
+.left-block-img-text {
+    position: relative;
+    text-align: center;
+}
 
 
-.ddm {
+.left-block-text {
+    transform: translate(-50%, -50%);
     top: 5%;
-    left: 10%;
+    left: 50%;
     position: absolute;
     color: #FFF;
     font-family: Montserrat;
@@ -96,7 +99,7 @@ body {
     line-height: normal;
 }
 
-.color {
+.left-block-text-point {
     color: #1B76FF;
     font-family: Montserrat;
     font-size: 24px;
@@ -110,14 +113,27 @@ body {
 }
 
 .right-block-up {
-
-    border-radius: 20px;
     overflow: hidden;
-
+    border-radius: 20px;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
 }
 
+.right-block-img-text {
+    position: relative;
+}
 
+.right-block-up-text {
+    transform: translate(-50%, -50%);
+    bottom: 15px;
+    left: 100px;
+    position: absolute;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
 
 .right-block-down {
     display: flex;
@@ -346,16 +362,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 390px) {
 
     .left-block {
@@ -365,6 +371,15 @@ body {
         overflow: hidden;
         margin-bottom: 20px;
 
+    }
+
+    .left-block-text {
+        font-size: 16px;
+
+    }
+
+    .left-block-text-point {
+        font-size: 16px;
     }
 
     .right-block-up {
@@ -430,6 +445,15 @@ body {
 
     }
 
+    .left-block-text {
+        font-size: 16px;
+
+    }
+
+    .left-block-text-point {
+        font-size: 16px;
+    }
+
     .right-block-up {
         width: 350px;
         height: 165px;
@@ -491,6 +515,15 @@ body {
         overflow: hidden;
         margin-bottom: 20px;
 
+    }
+
+    .left-block-text {
+        font-size: 24px;
+
+    }
+
+    .left-block-text-point {
+        font-size: 24px;
     }
 
     .right-block-up {
@@ -555,6 +588,15 @@ body {
 
     }
 
+    .left-block-text {
+        font-size: 24px;
+
+    }
+
+    .left-block-text-point {
+        font-size: 24px;
+    }
+
     .right-block-up {
         width: 560px;
         height: 268px;
@@ -614,6 +656,15 @@ body {
         overflow: hidden;
         margin-bottom: 0px;
 
+    }
+
+    .left-block-text {
+        font-size: 20px;
+
+    }
+
+    .left-block-text-point {
+        font-size: 20px;
     }
 
 
@@ -745,13 +796,16 @@ body {
 
         width: 530px;
         height: 530px;
-        border-radius: 20px;
-        overflow: hidden;
-        margin-bottom: 0px;
-
-        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
     }
 
+    .left-block-text {
+        font-size: 24px;
+
+    }
+
+    .left-block-text-point {
+        font-size: 24px;
+    }
 
 
     .right-block {
@@ -875,7 +929,7 @@ body {
 
     .footer-block {
         display: flex;
-        
+
     }
 
 
