@@ -1,0 +1,421 @@
+body {
+    max-width: 1200px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    background-color: #F5F5F7;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.header {
+    margin: 10px 20px;
+
+}
+
+.header-line {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    color: black;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding-right: 20px;
+    transition: color 0.4s linear;
+}
+
+.nav-item:hover {
+    color: #1B76FF;
+}
+
+
+
+.sex {
+    display: flex;
+    margin: 60px;
+    justify-content: center;
+}
+
+
+.sex2 {
+    display: block;
+    background-color: #1F78FF;
+    margin: 20px;
+    border-radius: 40px;
+    padding: 40px;
+}
+
+
+.form_name {
+    color: #8DBBFF;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.form_name_color {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.left_form {
+    display: flex;
+
+}
+
+
+.ddd {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.right_form {
+    margin-left: 40px;
+}
+
+.about_project {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+input[type="text"] {
+    all: unset;
+    /* Сбросить все стандартные стили */
+    /* или, для большей поддержки браузеров, можно указать каждое свойство вручную */
+    background: none;
+    border-bottom: 1px solid white;
+    box-shadow: none;
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    align-content: center;
+    color: white;
+    margin: 20px 0px;
+    display: flex;
+
+}
+
+/* Стили для плейсхолдера */
+input[type="text"]::placeholder {
+    color: #8DBBFF;
+    font-size: 16px;
+    /* Цвет текста плейсхолдера как у текста ввода */
+}
+
+
+
+
+
+
+
+
+
+.line {
+    width: auto;
+    height: 1px;
+    background-color: aliceblue;
+}
+
+.main_block {
+    display: flex;
+    margin: 100px 60px;
+
+}
+
+
+.block {
+    display: block;
+}
+
+.first_text {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0.2px;
+    padding: 40px 0px;
+}
+
+
+.name {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px 0px;
+}
+
+
+.strip_green {
+    margin-top: 20px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #B1EF42 24.78%, rgba(177, 239, 66, 0.00) 96.54%);
+    padding: 20px;
+}
+
+.strip_text1 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.strip_blue {
+    margin-right: 60px;
+    margin-top: 20px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #1F78FF 21.72%, rgba(31, 120, 255, 0.00) 92.81%);
+    padding: 20px;
+}
+
+.strip_text2 {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.strip_black {
+    margin-right: 200px;
+    margin-top: 20px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #000 27.23%, rgba(0, 0, 0, 0.00) 96.91%);
+    padding: 20px;
+}
+
+.strip_text3 {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.second_text {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0.2px;
+    padding: 40px 0px;
+}
+
+
+.button {
+    display: inline-flex;
+    border-radius: 30px;
+    background: #1F78FF;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px 40px;
+}
+
+
+
+
+.capobilitis {
+    display: flex;
+    margin: 100px 50px;
+}
+
+.container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frame {
+    margin: 10px;
+    border-radius: 20px;
+    width: 255px;
+    height: 314px;
+}
+
+
+.footer {
+
+    width: auto;
+    height: auto;
+    background-color: black;
+
+
+}
+
+.footer-block {
+    display: flex;
+    padding: 20px 40px;
+}
+
+.footer_container_left {
+    display: block;
+
+
+}
+
+.f_text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.colortext {
+    color: #1B76FF;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.info {
+    color: rgba(255, 255, 255, 0.78);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px 0px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+}
+
+.adv {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 20px;
+    margin-top: 10px;
+
+}
+
+.adv:hover {
+    color: #fff;
+}
+
+.footer_container_right {
+    display: block;
+    margin-left: auto;
+    padding: 0px 0px 0px 20px;
+
+}
+
+.svg_block {
+    padding: 5px 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 390px) {}
+
+@media screen and (min-width:390px) {}
+
+@media screen and (min-width: 600px) {}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 992px) {
+    .capobilitis {
+        display: flex;
+        margin: 100px 20px;
+    }
+
+    .frame {
+        width: 218px;
+        height: 268px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .capobilitis {
+        display: flex;
+        margin: 100px 50px;
+    }
+
+    .frame {
+        margin: 10px;
+        border-radius: 20px;
+        width: 255px;
+        height: 314px;
+    }
+}
