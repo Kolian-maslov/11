@@ -267,12 +267,15 @@ input[type="text"]::placeholder {
 .capobilitis {
     display: flex;
     margin: 100px 50px;
+    overflow: auto;
+    white-space: nowrap;
 }
 
 .container {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .frame {
