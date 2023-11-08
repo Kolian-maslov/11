@@ -526,6 +526,9 @@ input[type="text"]::placeholder {
     height: 230px;
 }
     
+    .sex2 {
+        padding: 20px;
+    }
     
     input[type="text"] {
         font-size: 12px;
@@ -560,6 +563,10 @@ input[type="text"]::placeholder {
     width: 170px;
     height: 230px;
 }
+    
+    .sex2 {
+        padding: 20px;
+    }
     
     input[type="text"] {
         font-size: 12px;
@@ -596,6 +603,9 @@ input[type="text"]::placeholder {
     height: 230px;
 }
     
+    .sex2 {
+        padding: 40px;
+    }
     
     input[type="text"] {
         font-size: 12px;
