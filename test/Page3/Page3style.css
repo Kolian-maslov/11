@@ -1,4 +1,4 @@
-body {
+cbody {
     max-width: 1200px;
     padding: 0px 0px 0px 0px;
     margin: 0px;
@@ -82,7 +82,13 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    padding: 20px 0px;
+    
+}
+
+
+.strip_block{
+    display: block;
+    margin: 40px 0px;
 }
 
 
@@ -144,7 +150,6 @@ body {
     font-weight: 500;
     line-height: 35px;
     letter-spacing: 0.2px;
-    padding: 40px 0px;
 }
 
 
@@ -160,6 +165,7 @@ body {
     font-weight: 600;
     line-height: normal;
     padding: 10px 40px;
+    margin: 20px 0px;
 }
 
 
@@ -170,8 +176,7 @@ body {
 .capobilities {
     display: flex;
     margin: 100px 50px;
-    overflow: auto;
-    white-space: nowrap;
+   
 }
 
 
@@ -181,6 +186,13 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+.double_frames{
+    display: flex;
+}
+
+
 
 
 .frame {
@@ -234,16 +246,20 @@ body {
 
 
 .lasted_works {
-    display: flex;
-    margin: 100px 0px;
+    display: block;
+    margin: 100px 60px;
 
 
 }
+
+
+
 
 .works_container {
     display: flex;
     overflow: auto;
     white-space: nowrap;
+    margin: 40px 0px;
 }
 
 .works_frame {
@@ -258,6 +274,7 @@ body {
     width: 678px;
     height: 400px;
     border-radius: 20px;
+    
 }
 
 .works_name {
@@ -499,19 +516,136 @@ input[type="text"]::placeholder {
 
 
 
-@media screen and (max-width: 390px) {}
+@media screen and (max-width: 390px) {
+    .container {
+    display: block;
+}
+    
+    .frame {
+    width: 170px;
+    height: 230px;
+}
+    
+    
+    input[type="text"] {
+        font-size: 12px;
+    }
+    
+    input[type="text"]::placeholder {
+    font-size: 12px;
+}
+    .about_project {
+        font-size: 16px;
+    }
+    
+    .ddd {
+        font-size: 16px;
+    }
+    
+    
+    .form_name {
+        font-size: 24px;
+    }
+    
+    .form_name_color {
+        font-size: 24px;
+    }
+}
 
-@media screen and (min-width:390px) {}
+@media screen and (min-width:390px) {
+    .container {
+    display: block;
+}
+       .frame {
+    width: 170px;
+    height: 230px;
+}
+    
+    input[type="text"] {
+        font-size: 12px;
+    }
+    
+    input[type="text"]::placeholder {
+    font-size: 12px;
+}
+    
+    .about_project {
+        font-size: 16px;
+    }
+    
+    .ddd {
+        font-size: 16px;
+    }
+    
+     .form_name {
+        font-size: 24px;
+    }
+    
+    .form_name_color {
+        font-size: 24px;
+    }
+}
 
-@media screen and (min-width: 600px) {}
+@media screen and (min-width: 600px) {
+    .container {
+    display: block;  
+}
+    
+       .frame {
+    width: 170px;
+    height: 230px;
+}
+    
+    
+    input[type="text"] {
+        font-size: 12px;
+    }
+    
+    input[type="text"]::placeholder {
+    font-size: 16px;
+}
+    
+    .about_project {
+        font-size: 24px;
+    }
+    
+    .ddd {
+        font-size: 24px;
+    }
+    
+     .form_name {
+        font-size: 36px;
+    }
+    
+    .form_name_color {
+        font-size: 36px;
+    }
+    
+}
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    .container {
+    display: flex;  
+}
+       .frame {
+    width: 270px;
+    height: 330px;
+}
+    
+    input[type="text"] {
+        font-size: 24px;
+    } 
+    
+}
 
 @media screen and (min-width: 992px) {
     .capobilitis {
         display: flex;
         margin: 100px 20px;
     }
+    .container {
+    display: flex;   
+}
 
 
 }
@@ -521,6 +655,8 @@ input[type="text"]::placeholder {
         display: flex;
         margin: 100px 50px;
     }
-
-
+    .container {
+    display: flex;
+}
+    
 }
