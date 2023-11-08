@@ -517,6 +517,19 @@ input[type="text"]::placeholder {
 
 
 @media screen and (max-width: 390px) {
+    .main_block {
+    margin: 100px 20px;
+}
+    .lasted_works {
+    margin: 100px 20px;
+}
+    
+    .capobilities {
+    margin: 100px 30px;
+}
+
+    
+    
     .container {
     display: block;
 }
@@ -556,6 +569,17 @@ input[type="text"]::placeholder {
 }
 
 @media screen and (min-width:390px) {
+       .main_block {
+    margin: 100px 20px;
+}
+     .lasted_works {
+    margin: 100px 20px;
+}
+  
+     .capobilities {
+    margin: 100px 30px;
+}
+    
     .container {
     display: block;
 }
@@ -594,6 +618,18 @@ input[type="text"]::placeholder {
 }
 
 @media screen and (min-width: 600px) {
+       .main_block {
+    margin: 100px 30px;
+}
+    
+     .lasted_works {
+    margin: 100px 30px;
+}
+  
+     .capobilities {
+    margin: 100px 40px;
+}
+    
     .container {
     display: block;  
 }
