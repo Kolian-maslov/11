@@ -176,6 +176,7 @@ cbody {
 .capobilities {
     display: flex;
     margin: 100px 50px;
+    justify-content: center;
    
 }
 
