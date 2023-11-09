@@ -358,13 +358,13 @@ cbody {
 }
 
 .left_form {
-    display: flex;
+    display: block;
 
 }
 
 
 .ddd {
-    color: #FFF;
+    color: #8DBBFF;
     font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
@@ -373,11 +373,12 @@ cbody {
 }
 
 .right_form {
+    display: block;
     margin-left: 40px;
 }
 
 .about_project {
-    color: #FFF;
+    color: #8DBBFF;
     font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
@@ -403,13 +404,26 @@ input[type="text"] {
 
 }
 
-/* Стили для плейсхолдера */
+
 input[type="text"]::placeholder {
     color: #8DBBFF;
     font-size: 16px;
     /* Цвет текста плейсхолдера как у текста ввода */
 }
 
+
+button{
+    all: unset; 
+    border: 2px solid #FEFEFE;
+    border-color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color:#fff;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Montserrat;
+    margin-top: 20px;
+}
 
 
 
@@ -536,8 +550,8 @@ input[type="text"]::placeholder {
 }
     
     .frame {
-    width: 170px;
-    height: 230px;
+    width: 165px;
+    height: 204px;
 }
     
     .sex2 {
@@ -585,8 +599,8 @@ input[type="text"]::placeholder {
     display: block;
 }
        .frame {
-    width: 170px;
-    height: 230px;
+    width: 165px;
+    height: 204px;
 }
     
     .sex2 {
@@ -636,8 +650,8 @@ input[type="text"]::placeholder {
 }
     
        .frame {
-    width: 170px;
-    height: 230px;
+    width: 270px;
+    height: 332px;
 }
     
     .sex2 {
@@ -686,6 +700,12 @@ input[type="text"]::placeholder {
 }
 
 @media screen and (min-width: 992px) {
+    .main_block {
+    margin: 100px 30px;
+
+}
+    
+    
     .capobilitis {
         display: flex;
         margin: 100px 20px;
@@ -698,6 +718,12 @@ input[type="text"]::placeholder {
 }
 
 @media screen and (min-width: 1200px) {
+    
+    .main_block {
+   
+    margin: 100px 60px;
+
+}
     .capobilitis {
         display: flex;
         margin: 100px 50px;
