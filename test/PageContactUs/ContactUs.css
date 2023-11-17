@@ -1,0 +1,358 @@
+body {
+    max-width: 1200px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    background-color: #F5F5F7;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    user-select:none;
+}
+
+
+
+.header {
+    margin: 10px 20px;
+
+}
+
+.header-line {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    color: black;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding-right: 20px;
+    transition: color 0.4s linear;
+}
+
+.nav-item:hover {
+    color: #1B76FF;
+
+}
+
+
+.main-block {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+
+
+}
+
+.main-text {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.chose-block {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 20px;
+    align-self: stretch;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
+
+.item {
+    user-select:none;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.item:hover{
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.50);
+}
+
+.selected {
+    user-select:none;
+    background-color: #1B76FF;
+    color: #fff;
+}
+
+
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+input[type="text"] {
+    all: unset;
+    /* Сбросить все стандартные стили */
+    /* или, для большей поддержки браузеров, можно указать каждое свойство вручную */
+    background: none;
+    border-bottom: 1px solid #676767;
+    box-shadow: none;
+    margin: 0px;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    align-content: center;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+}
+
+
+input[type="text"]::placeholder {
+    color: #676767;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.button-con {
+    display: block;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    all: unset;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+button:hover {
+    color: #1B76FF;
+}
+
+.button-text {
+    color: #8C8C8C;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+    width: auto;
+    height: auto;
+    background-color: black;
+    margin-top: 100px;
+}
+
+.footer-block {
+    display: flex;
+    padding: 20px 40px;
+}
+
+;
+
+.footer_container_left {
+    display: block;
+}
+
+.f_text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.colortext {
+    color: #1B76FF;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.info {
+    color: rgba(255, 255, 255, 0.78);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px 0px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+}
+
+.adv {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.footer_container_right {
+    display: block;
+    margin-left: auto;
+    padding: 0px 0px 0px 20px;
+}
+
+.svg_block {
+    padding: 5px 0px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 390px) {
+   .container {
+    gap: 10px;
+} 
+    .main-text {
+    font-size: 24px; 
+}
+    .chose-block {
+    gap: 10px;
+}
+    .item {
+    border-radius: 20px;
+    font-size: 16px;
+}
+    .form {
+    gap: 20px;
+}
+
+input[type="text"] {
+    all: unset;
+    font-size: 16px;
+    border-bottom: 1px solid #676767;
+}
+
+
+input[type="text"]::placeholder {
+    font-size: 12px;
+}
+
+    button {
+    font-size: 24px;
+}
+
+
+.button-text {
+    font-size: 16px;
+}
+    
+}
+
+
+@media screen and (min-width:390px) {
+     .container {
+    gap: 10px;
+} 
+    .main-text {
+    font-size: 24px; 
+}
+    .chose-block {
+    gap: 10px;
+    }
+    
+    .item {
+    border-radius: 20px;
+    font-size: 16px;
+}
+    .form {
+    gap: 20px;
+}
+
+input[type="text"] {
+    all: unset;
+    font-size: 16px;
+}
+
+
+input[type="text"]::placeholder {
+    font-size: 12px;
+}
+
+    button {
+    font-size: 24px;
+}
+
+
+.button-text {
+    font-size: 16px;
+}
+    
+}
+
+
+@media screen and (min-width: 600px) {}
+
+
+@media screen and (min-width: 768px) {}
+
+
+@media screen and (min-width: 992px) {}
+
+
+@media screen and (min-width: 1200px) {}
