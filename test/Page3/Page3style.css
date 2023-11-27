@@ -1,17 +1,18 @@
 body {
-    max-width: 1200px;
+    max-width: 1920px;
     padding: 0px 0px 0px 0px;
     margin: 0px;
     background-color: #F5F5F7;
     font-family: 'Montserrat', sans-serif;
     margin-left: auto;
     margin-right: auto;
+    user-select:none;
 }
 
 
 
 .header {
-    margin: 10px 20px;
+    margin: 10px 60px;
 }
 
 .header-line {
@@ -47,7 +48,7 @@ body {
 .line {
     width: auto;
     height: 1px;
-    background-color: aliceblue;
+    
 }
 
 .main_block {
@@ -174,6 +175,7 @@ body {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 
@@ -192,11 +194,11 @@ body {
     border-radius: 20px;
     width: 255px;
     height: 314px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
 }
 
-.frame:hover{
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+.frame:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
 }
 
 .frame_text {
@@ -226,14 +228,14 @@ body {
 }
 
 
-.arrow{
+.arrow {
     position: absolute;
     top: 20px;
     right: 20px;
-    
+
 }
 
-.arrow img{
+.arrow img {
     width: 16px;
 }
 
@@ -315,7 +317,7 @@ body {
     margin: 20px;
     border-radius: 40px;
     padding: 40px;
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
 }
 
 .form_name {
@@ -408,7 +410,10 @@ button {
     margin-top: 20px;
 }
 
-
+button:hover {
+    background-color: white;
+    color: #1B76FF;
+}
 
 
 
